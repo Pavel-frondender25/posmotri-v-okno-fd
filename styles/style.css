@@ -297,6 +297,15 @@ input[type="text"] {
 .more-button {
   width: 100%;
   min-height: 34px;
+  margin-bottom: 1px;
+}
+
+.more-button:focus {
+  outline: none;
+}
+
+.more-button:focus-visible {
+  outline: 1px solid #fff;
 }
 
 button:hover {
